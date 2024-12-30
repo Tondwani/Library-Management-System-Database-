@@ -1,0 +1,16 @@
+ProjectOverview.md
+
+Overview:
+
+The Library Management System is a MySQL-based backend project designed to manage library operations efficiently. It handles book loans, member management, and provides insights into overdue books and popular titles. The system simplifies database management with views, triggers, and stored procedures.
+
+Key Features:
+
+Track books, members, and loans.
+
+Generate real-time views of books on loan and overdue books.
+
+Automate updates with triggers for book status.
+
+Modular and scalable SQL structure for ease of maintenance.
+

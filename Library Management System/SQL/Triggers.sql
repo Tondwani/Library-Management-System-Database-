@@ -1,0 +1,12 @@
+DELIMITER //
+
+CREATE TRIGGER UpdateBookStatusOnLoan
+AFTER INSERT ON Loans
+FOR EACH ROW
+BEGIN
+    UPDATE Books
+    SET Status = 'On Loan'
+    WHERE BookID = NEW.BookID;
+END //
+
+DELIMITER ;

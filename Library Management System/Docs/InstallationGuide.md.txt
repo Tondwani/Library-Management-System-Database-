@@ -1,0 +1,32 @@
+Prerequisites:
+
+MySQL server installed on your machine.
+
+A SQL client like MySQL Workbench or CLI access.
+
+Git for cloning the repository.
+
+Installation Steps:
+
+Clone the Repository:
+
+git clone <repository_url>
+cd LibraryManagementSystem
+
+Import the Schema:
+Open your SQL client and run:
+
+SOURCE sql/schema.sql;
+
+Insert Seed Data:
+
+SOURCE sql/seed_data.sql;
+
+Set Up Views, Triggers, and Stored Procedures:
+
+SOURCE sql/views.sql;
+SOURCE sql/triggers.sql;
+SOURCE sql/stored_procedures.sql;
+
+Verify Installation:
+Test the database by running queries from sql/queries/.
